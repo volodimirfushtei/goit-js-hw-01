@@ -1,9 +1,6 @@
 'use strict';
 
 function getElementWidth(content, padding, border) {
-  content === 'Npx';
-  padding === 'Npx';
-  border === 'Npx';
   const product =
     parseFloat(content) + parseFloat(padding) * 2 + parseFloat(border) * 2;
   return product;
